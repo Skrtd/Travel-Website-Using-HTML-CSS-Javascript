@@ -305,5 +305,8 @@ form p{
     .contactForm{
         width: 60%;
     }
+    .places .placeCard{
+        height:420px ;
+    }
 }
 
