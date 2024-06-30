@@ -164,7 +164,7 @@ form p{
     justify-content: center;
     width: 80%;  /* width 80px hai usme hum autofit kar rahe hai card ko jo min max 300px ke hai */
     /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));  means 80% width me 300px ke jitne card hai vo aa jayenge automatic */
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     margin: auto;
 }
 .places .placeCard{
