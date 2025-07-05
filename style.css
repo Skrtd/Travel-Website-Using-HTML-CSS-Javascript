@@ -296,6 +296,12 @@ form p{
     .contact img{
         width: 90%;
     }
+    .places{
+        grid-template-columns: repeat(2, 1fr);  /* Only 2 card per row */
+    }
+    .places .placeCard{
+        height: 400px;
+    }
 }
 
 @media only screen and (max-width:500px){
@@ -305,8 +311,8 @@ form p{
     .contactForm{
         width: 60%;
     }
-    .places .placeCard{
-        height:470px ;
+    .places {
+        grid-template-columns: repeat(1, 1fr);  /* Only 1 card per row */
     }
 }
 
